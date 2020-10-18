@@ -6,6 +6,8 @@
   padding: 0;
 }
 
+/* header */
+
 header {
   height: 1000px;
 }
@@ -14,7 +16,7 @@ header {
   margin: auto;
 }
 
-/* Navbar */
+/* navbar */
 
 nav, li > a {
   height: 4vw;
@@ -130,6 +132,10 @@ li > a {
 
 /* end elementi seconda riga navbar right */
 
+
+/* end navbar */
+
+
 /* jumbo row */
 
 .jumbo_image {
@@ -181,4 +187,23 @@ h6 {
   font-weight: lighter;
 }
 
-/* jumbo row */
+/* end jumbo row */
+
+
+/* barra verde */
+
+.position {
+  height: 60px;
+  width: 100%;
+}
+
+.barra_verde {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(146, 228, 218);
+  border-top: 3px solid rgb(51, 71, 91);
+  border-bottom: 3px solid rgb(51, 71, 91);
+  transform: translateY(-297%);
+}
+
+/* end barra verde */
