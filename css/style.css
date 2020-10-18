@@ -41,7 +41,7 @@ nav, li > a {
 }
 
 .first, .second {
-  width: 80%;
+  width: 70%;
   content: "";
   display: table;
   clear: both;
@@ -137,12 +137,12 @@ li > a {
   height: calc(100% - 153.6px);
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
+  background-size: 1429px 695px;
+  background-position: 100% -40%;
 }
 
 .text {
-  width: 80%;
+  width: 70%;
 }
 
 h1, p, h6{
@@ -151,12 +151,12 @@ h1, p, h6{
 }
 
 .percentage {
-  width: 38%;
+  width: 42%;
 }
 
 h1 {
  font-size: 50px;
- margin: 50px 0 30px 0;
+ margin: 95px 0 30px 0;
 }
 
 p {
@@ -166,13 +166,14 @@ p {
 }
 
 .text a {
+  font-family: 'Roboto', 'AvenirNext', 'Helvetica', 'Arial', 'sans-serif';
   color: white;
   background-color: #FF7A59;
   border: 1px solid #FF7A59;
   text-decoration: none;
-  padding: 20px 30px 20px 30px;
+  padding: 20px 40px 20px 40px;
   border-radius: 7px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 h6 {
