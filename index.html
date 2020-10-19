@@ -7,6 +7,7 @@
     <meta name="author" content="Romina Trazzi">
     <!-- fogli di stile awesome + mio -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;900&display=swap" rel="stylesheet"/ >
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:@200;600;400;800" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <!-- / fogli di stile awesome google + mio -->
@@ -58,20 +59,20 @@
 
             <!-- riga float sinistro seconda navbar -->
             <div class="left">
-            <img id="logo" src="img/logo.svg">
-          </div>
+              <img id="logo" src="img/logo.svg">
+            </div>
             <!-- / riga float sinistro seconda navbar -->
 
             <!-- riga float destro seconda navbar -->
             <div class="right">
-            <ul>
-              <li><a href="#">Software</a><i class="fas fa-chevron-down"></i></li>
-              <li><a href="#" id="price">Pricing</a></li>
-              <li><a href="#">Resources</a><i class="fas fa-chevron-down"></i></li>
-              <li><a href="#">Partners</a><i class="fas fa-chevron-down"></i></li>
-              <li><a href="#">About</a><i class="fas fa-chevron-down"></i></li>
-            </ul>
-          </div>
+              <ul>
+                <li><a href="#">Software</a><i class="fas fa-chevron-down"></i></li>
+                <li><a href="#" id="price">Pricing</a></li>
+                <li><a href="#">Resources</a><i class="fas fa-chevron-down"></i></li>
+                <li><a href="#">Partners</a><i class="fas fa-chevron-down"></i></li>
+                <li><a href="#">About</a><i class="fas fa-chevron-down"></i></li>
+              </ul>
+            </div>
             <!-- / riga float destro seconda navbar -->
 
           </div>
@@ -88,7 +89,7 @@
             <p>Marketing, sales, and service software that helps your business grow without compromise. Because "good for the business" should also mean "good for the customer."
             </p>
           </div>
-          <a href="#">GetHubspotFree</a>
+          <a class ="learn_more" href="#">GetHubspotFree</a>
           <h6>Get started with FREE tols, and upgrade as you grow.</h6>
         </div>
       </div>
@@ -114,7 +115,7 @@
       </section>
       <!-- / section main_header powerful alone better toghether -->
 
-
+      <!-- main bianco -->
       <section class="main_blocco_bianco row">
 
         <!-- free hubspot crm -->
@@ -123,48 +124,65 @@
           <a href="#"> Learn More </a>
           <div> Free HubSpot CRM
             <p> Everything you need to organize, track, and build better relationships with leads and
-            <br> customers. Yes, it's 100% free. Forever. <br> POPOLAR FREATURE
+            <br> customers. Yes, it's 100% free. Forever. <br>
+            <span class="titoletto"> POPOLAR FEATURE </span>
             </p>
           </div>
           <div class="icone_rosse"> Contact Insight Deals Task </div>
         </div>
         <!-- / free hubspot crm -->
 
-        <!-- tre div colonne del main bianco -->
 
-        <!-- colonna marketing -->
+        <!-- contenitore 3 colonne -->
+        <div class="tre">
 
-        <div class="marketing left">
-          Marketing
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <!-- colonna marketing con il suo box -->
+          <div class="marketing left">
+            <div class="box_1">
+              <img class="trio" src="img/marketing.png">
+              <h3> Marketing Hub </h3>
+              <p> Marketing software to help you grow <br> traffic, convert more visitors, and run <br> complete inbound marketing <br> campaigns at scale.
+              </p>
+              <span class ="titoletto"> POPOLAR FEATURE </span>
+              <div class="icone_rosse">
+                <ul>
+                  <li> <i class="fas fa-check-circle"></i> Lead Generation </li>
+                  <li> <i class="fas fa-check-circle"></i> Marketing Automation </li>
+                  <li> <i class="fas fa-check-circle"></i> Analytics </li>
+                </ul>
+              </div>
+              <div class="button_orange">
+                <a class="learn_more" href="#"> Learn More </a>
+              </div>
+          </div>
+          <!-- / colonna marketing con il suo box -->
+
+
+
+
+          <!-- colonna sales -->
+          <div class="sales left">
+            <img class="trio" src="img/sales.png">
+            Sales
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <!-- / colonna sales -->
+
+
+          <!-- colonna service -->
+          <div class="service left">
+            <img class="trio" src="img/service.png">
+            Service
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+          <!-- / colonna service -->
 
         </div>
-
-        <!-- /colonna marketing -->
-
-        <!-- colonna sales -->
-
-        <div class="sales">
-          Sales
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-        </div>
+        <!-- /contenitore 3 colonne -->
 
 
-        <!-- /colonna sales -->
-
-        <!-- colonna service -->
-
-        <div class="service right">
-          Service
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-        </div>
-
-        <!-- / colonna service -->
       </section>
-      <!-- / tre div colonne del main bianco -->
-
+      <!-- / main bianco -->
 
 
     </main>
