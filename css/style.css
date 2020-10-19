@@ -9,7 +9,7 @@
 /* header */
 
 header {
-  height: 1000px;
+  height: 770px;
 }
 
 .row {
@@ -47,7 +47,11 @@ nav, li > a {
   content: "";
   display: table;
   clear: both;
-  transform: translateY(100%);
+  transform: translateY(110%);
+}
+
+#logo {
+  margin-top: -6px;
 }
 
 /* elementi prima riga navbar left */
@@ -106,6 +110,10 @@ nav, li > a {
   margin-left: 20px;
 }
 
+#price {
+  margin-right: -20px;
+}
+
 .right > a:nth-child(2) {
   color: #FF7A59;
   border: 1px solid #FF7A59;
@@ -136,7 +144,7 @@ li > a {
 /* end navbar */
 
 
-/* jumbo row */
+/* jumbo image */
 
 .jumbo_image {
   width: 100%;
@@ -144,7 +152,7 @@ li > a {
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-size: 1429px 695px;
-  background-position: 100% -40%;
+  background-position: bottom right;
 }
 
 .text {
@@ -187,12 +195,12 @@ h6 {
   font-weight: lighter;
 }
 
-/* end jumbo row */
+/* end jumbo image */
 
 
 /* barra verde */
 
-.position {
+.container_verde {
   height: 60px;
   width: 100%;
 }
@@ -203,7 +211,42 @@ h6 {
   background-color: rgb(146, 228, 218);
   border-top: 3px solid rgb(51, 71, 91);
   border-bottom: 3px solid rgb(51, 71, 91);
-  transform: translateY(-297%);
+  transform: translateY(-85%);
 }
 
 /* end barra verde */
+
+
+/* end header */
+
+
+/* main */
+
+.main_header {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#rubik {
+  width: 100%;
+}
+
+h2, h2 ~ p {
+  color: rgb(51, 71, 91);
+  font-family: 'Roboto', 'AvenirNext', 'Helvetica', 'Arial', 'sans-serif';
+  text-decoration: none;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.main_header img {
+  margin-top: 30px;
+  width: 15%;
+}
+
+
+/* main header */
