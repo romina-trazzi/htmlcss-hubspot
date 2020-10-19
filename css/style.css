@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  min-width: 100%;
+}
+
 /* header */
 
 header {
@@ -222,6 +226,8 @@ h6 {
 
 /* main */
 
+/* main_header powerful alone better toghether  */
+
 .main_header {
   width: 100%;
   display: inline-block;
@@ -246,7 +252,41 @@ h2 {
 .main_header img {
   margin-top: 30px;
   width: 15%;
+  margin-bottom: 50px;
+}
+
+/* end main_header powerful alone better toghether  */
+
+/* main_blocco_bianco con colonna crm + 3 colonne */
+
+.main_blocco_bianco {
+  width: 70%;
+}
+
+.crm {
+  background-color: deeppink;
+  border: 2px solid black; /* rgb(230, 236, 241); */
+  padding-bottom: 65px;
+  margin-bottom: 50px;
 }
 
 
-/* main header */
+.marketing, .sales, .service {
+  width: 30%;
+  border: 2px solid black; /* rgb(230, 236, 241); */
+  display: inline-block;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+.marketing {
+
+}
+
+.sales {
+
+
+}
+.service {
+
+}
