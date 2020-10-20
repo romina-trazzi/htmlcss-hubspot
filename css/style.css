@@ -337,7 +337,6 @@ h2 {
 }
 
 
-
 /* 3 colonne */
 
 /* struttura della griglia delle tre colonne */
@@ -405,9 +404,14 @@ h3 {
   margin-top: 30px;
 }
 
+.tre ul {
+  padding-left: 30px;
+}
+
 .icone_rosse {
   margin-top: 30px;
   margin-bottom: 70px;
+  text-align: left;
 }
 
 .icone_rosse li {    /* elementi liste */
