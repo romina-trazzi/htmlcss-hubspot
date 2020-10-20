@@ -62,7 +62,7 @@ h1, h2, p, h6, .titoletto {
 /* end classi utility e reset */
 
 #sfondo_main {
-  width: 100%;;
+  width: 100%;
   background-color: #f4f9fd;
 }
 
@@ -324,6 +324,7 @@ h2 {
 .box {
   border: 1px solid cadetblue;
   width: 100%;
+  background-color: white;
 }
 
 .box > p {   /* scritte paragrafi */
@@ -454,18 +455,10 @@ h3 {
 
 /* contenitori e floating sezione loghi  */
 
-.contenitore_loghi {
-  height: auto;
-}
-
 .loghi::after {
   content: "";
   display: table;
   clear: both;
-}
-
-.riga_uno_sx {
-  background-color: darkgoldenrod;
 }
 
 .riga_uno_dx {
@@ -473,16 +466,34 @@ h3 {
 }
 
 .loghi {
-  margin-bottom: 30px;
+  padding-top: 35px;
+  margin-bottom: 50px;
+  margin-left: 80px;
 }
-
 
 .non_loghi {
   padding-top: 30px;
   margin-bottom: 400px;
 }
 
-.non_loghi  h2 {
+.nls {
+  padding-top: 30px;
+}
+
+/* end contenitori e floating sezione loghi  */
+
+/* testi sezione loghi */
+
+.loghi h2 {
+  font-size: 48px;
+}
+
+.loghi p {
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.non_loghi h2 {
   width: 70%;
 }
 
@@ -490,19 +501,21 @@ h3 {
   line-height: 1.5em;
   font-weight: 300;
   width: 75%;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .non_loghi img {
-  width: 45%;
+  width: 43%;
   background-repeat: no-repeat;
-  text-align: right;
 }
 
 /*footer */
 
 footer {
   background-color: rgb(51,71,91);
+  color: white;
   width: 100%;
   height: auto;
 }
+
+/* end footer */
