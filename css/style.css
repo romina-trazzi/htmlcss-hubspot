@@ -1,5 +1,7 @@
 /* Codice Css Hubspot clone */
 
+/* classi utility e reset */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,17 +17,55 @@ body {
 
 header {
   height: 770px;
-  background-color: lightpink;
 }
 
 .row {
   margin: auto;
 }
 
+.text {
+  width: 70%;
+}
+
+.left  {
+ width: 50%;
+ float: left;
+}
+
+.right {
+  float: right;
+  width: 50%%;
+  text-align: right;
+}
+
+h1, h2, p, h6, .titoletto {
+  color: rgb(51, 71, 91);
+  font-family: 'Roboto', 'Montserrat', 'AvenirNext', 'Helvetica', 'Arial', 'sans-serif';
+  text-decoration: none;
+}
+
+.learn_more {
+  font-family: 'Roboto', 'Montserrat', 'AvenirNext', 'Helvetica', 'Arial', 'sans-serif' !important;
+  font-size: 14px !important;
+  color: white !important;
+  text-decoration: none !important;
+  background-color: #FF7A59 !important;
+  border: 1px solid #FF7A59 !important;
+  border-radius: 7px !important;
+  padding: 18px 35px 18px 35px !important;
+}
+
+.button_orange {
+  margin-bottom: 30px;
+}
+
+/* end classi utility e reset */
+
 #sfondo_main {
   width: 100%;;
   background-color: #f4f9fd;
 }
+
 
 /* navbar */
 
@@ -47,17 +87,6 @@ nav, li > a {
   background-color: #f4f9fd;
 }
 
-.left  {
- width: 50%;
- float: left;
-}
-
-.right {
-  float: right;
-  width: 50%%;
-  text-align: right;
-}
-
 .first, .second {
   content: "";
   display: table;
@@ -69,6 +98,7 @@ nav, li > a {
 #logo {
   margin-top: -6px;
 }
+
 
 /* elementi prima riga navbar left */
 
@@ -160,6 +190,7 @@ nav, li > a {
 /* end navbar */
 
 
+
 /* jumbo image */
 
 .jumbo_image {
@@ -169,17 +200,7 @@ nav, li > a {
   background-repeat: no-repeat;
   background-size: 1429px 695px;
   background-position: bottom right;
-  background-color: #E5E5E5;
-}
-
-.text {
-  width: 70%;
-}
-
-h1, h2, p, h6, .titoletto {
-  color: rgb(51, 71, 91);
-  font-family: 'Roboto', 'Montserrat', 'AvenirNext', 'Helvetica', 'Arial', 'sans-serif';
-  text-decoration: none;
+  /* background-color: #E5E5E5 */;
 }
 
 .percentage {
@@ -263,11 +284,8 @@ h2 {
 
 /* end main_header powerful alone better toghether  */
 
-/* main_blocco_bianco con colonna crm + 3 colonne */
 
-.main_blocco_bianco {
-  width: 70%;
-}
+/* main_blocco_bianco con colonna crm + 3 colonne */
 
 .crm {
   background-color: deeppink;
@@ -275,6 +293,8 @@ h2 {
   padding-bottom: 65px;
   margin-bottom: 50px;
 }
+
+
 /* 3 colonne */
 
 /* struttura della griglia delle tre colonne */
@@ -354,24 +374,12 @@ h3 {
   color: #FF7A59;
 }
 
-.learn_more {
-  font-family: 'Roboto', 'Montserrat', 'AvenirNext', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 14px;
-  color: white;
-  text-decoration: none;
-  background-color: #FF7A59;
-  border: 1px solid #FF7A59;
-  border-radius: 7px;
-  padding: 18px 35px 18px 35px;
-}
-
-.button_orange {
-  margin-bottom: 30px;
-}
 
 /* end testi e immagini delle 3 colonne */
 
 /* end 3 colonne */
+
+/* end main_blocco_bianco con colonna crm + 3 colonne */
 
 
 /* div gradiente verde */
@@ -436,28 +444,53 @@ h3 {
   border-left: none !important;
 }
 
-/* end div sfondo gradiente */
+/* end div gradiente verde */
 
 
 /* sezione loghi */
 
-.sezione_loghi {
-  background-color: lightsalmon;
-}
+/* contenitori e floating sezione loghi  */
 
 .contenitore_loghi {
-  width: 100%;
   height: auto;
 }
 
+.loghi::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.riga_uno_sx {
+  background-color: darkgoldenrod;
+}
+
+.riga_uno_dx {
+  background-color: darkmagenta;
+}
+
 .loghi {
-  background-color: cornflowerblue;
-  width: 100%;
+  margin-bottom: 30px;
 }
 
 
 .non_loghi {
-  background-color: olivedrab;
-  width: 100%;
-
+  padding-top: 30px;
 }
+
+.non_loghi  h2 {
+  width: 70%;
+}
+
+.non_loghi p {
+  line-height: 1.5em;
+  font-weight: 300;
+  width: 75%;
+  margin-bottom: 50px;
+}
+
+/* footer {
+  background-color: rgb(51,71,91);
+  width: 100%;
+  height: auto;
+} */
