@@ -364,7 +364,7 @@ h3 {
 /* div gradiente verde */
 
 .testo_bianco {
-  background-color: darkgreen;
+background: linear-gradient(90deg, rgba(0,165,188,1) 0%, rgba(0,188,166,1) 100%, rgba(0,165,188,1) 100%);
   color: white;
   width: 100%;
 }
