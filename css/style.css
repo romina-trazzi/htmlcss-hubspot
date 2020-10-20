@@ -139,7 +139,7 @@ nav, li > a {
   display: inline;
 }
 
-li > a {
+.second li > a {
   padding: 0 20px 0 20px;
 }
 
@@ -164,7 +164,7 @@ li > a {
   width: 70%;
 }
 
-h1, h2, p, h6, .titoletto{
+h1, h2, p, h6, .titoletto {
   color: rgb(51, 71, 91);
   font-family: 'Roboto', 'Montserrat', 'AvenirNext', 'Helvetica', 'Arial', 'sans-serif';
   text-decoration: none;
@@ -228,6 +228,7 @@ h6 {
   display: inline-block;
   text-align: center;
   margin-top: 140px;
+  margin-bottom: 55px;
 }
 
 #rubik {
@@ -236,13 +237,16 @@ h6 {
 
 h2 {
   margin-bottom: 30px;
+  font-size: 30px;
 }
 
-
+.main_header > p {
+  line-height: 1.6em;
+}
 
 .main_header img {
   margin-top: 30px;
-  width: 15%;
+  width: 12%;
 }
 
 /* end main_header powerful alone better toghether  */
@@ -259,6 +263,7 @@ h2 {
   padding-bottom: 65px;
   margin-bottom: 50px;
 }
+/* 3 colonne */
 
 /* struttura della griglia delle tre colonne */
 
@@ -272,27 +277,27 @@ h2 {
 .marketing, .sales, .service {
   width: 33.33%;
   margin-bottom: 50px;
-  padding-bottom: 10px;
   color: rgb(51, 71, 91);
   font-family: 'Roboto', 'Montserrat','AvenirNext', 'Helvetica', 'Arial', 'sans-serif';
   text-align: center;
 }
 
 .marketing {
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
-.box_1 {
-  border: 1px solid black;
+.box_1, .box_2, .box_3 {
+  border: 1px solid cadetblue;
   width: 100%;
-
 }
 
 .sales {
-
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 .service {
+  padding-left: 30px;
 
 }
 
@@ -302,24 +307,25 @@ h2 {
 
 h3 {
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .trio {
   margin: 20px 0 25px 0;
 }
 
+.box_1, .box_2, .box_3 > p {   /* scritte paragrafi */
+  line-height: 1.6em;
+  font-size: 15px;
+}
+
 .titoletto {   /* popolar feature */
   text-align: center;
-  font-size: 16px;
+  font-size: 16px !important;
   font-weight: bold;
   border-top: 2px solid darkgrey;
   padding-top: 30px;
-}
-
-.box_1 > p {   /* scritte paragrafi */
-  line-height: 1.6em;
-  font-size: 15px;
-  margin: 30px 0 100px 0;
+  margin-top: 30px;
 }
 
 .icone_rosse {
@@ -327,10 +333,9 @@ h3 {
   margin-bottom: 70px;
 }
 
-.icone_rosse li {
+.icone_rosse li {    /* elementi liste */
   list-style: none;
-  font-size: 15px;
-} /* elementi liste */
+}
 
 .fa-check-circle {
   color: #FF7A59;
@@ -345,9 +350,21 @@ h3 {
   border: 1px solid #FF7A59;
   border-radius: 7px;
   padding: 18px 35px 18px 35px;
-  margin-bottom: 30px
 }
 
 .button_orange {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+}
+
+/* end testi e immagini delle 3 colonne */
+
+/* end 3 colonne */
+
+
+/* div gradiente verde */
+
+.testo_bianco {
+  background-color: darkgreen;
+  color: white;
+  width: 100%;
 }
