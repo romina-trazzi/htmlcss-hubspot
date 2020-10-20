@@ -375,7 +375,6 @@ h3 {
   background: -o-linear-gradient(left, rgba(0,165,188,1) 0%, rgba(0,188,166,1) 100%, rgba(0,165,188,1) 100%);
   background: linear-gradient(to right, rgba(0,165,188,1) 0%, rgba(0,188,166,1) 100%, rgba(0,165,188,1) 100%);
   width: 100%;
-  height: auto;
 }
 
 .grow {
@@ -398,7 +397,7 @@ h3 {
 
 .table {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .riga_1, .riga_2 {
