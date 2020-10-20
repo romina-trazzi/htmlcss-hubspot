@@ -105,7 +105,7 @@
     <main>
 
       <!-- section main_header powerful alone better toghether -->
-      <section class="main_header">
+      <section id="main_header">
         <div id="rubik"> <img src="img/rubik.webp"> </div>
         <h2> Powerful Alone. Better Togheter </h2>
         <p> HubSpot offers a full stack of software for marketing, sales, and customer serverice, with a completely free CRM at its <br> core. There're powerful alone - but even better when used toghether.
@@ -114,19 +114,26 @@
       <!-- / section main_header powerful alone better toghether -->
 
       <!-- main bianco -->
-      <section class="main_blocco_bianco row">
+      <section id="main_blocco_bianco row">
 
         <!-- free hubspot crm -->
         <div class="crm">
           <img id="book" src="img/book.jpg">
-          <a href="#"> Learn More </a>
+          <a class ="learn_more" href="#"> Learn More </a>
           <div> Free HubSpot CRM
             <p> Everything you need to organize, track, and build better relationships with leads and
             <br> customers. Yes, it's 100% free. Forever. <br>
-            <span class="titoletto"> POPOLAR FEATURE </span>
+            <p class="titoletto"> POPOLAR FEATURE </p>
             </p>
           </div>
-          <div class="icone_rosse"> Contact Insight Deals Task </div>
+          <div class="icone_rosse">
+            <ul>
+              <li><i class="fas fa-check-circle"></i>Contact </li>
+              <li><i class="fas fa-check-circle"></i>Insight </li>
+              <li><i class="fas fa-check-circle"></i>Deals </li>
+              <li><i class="fas fa-check-circle"></i>Task</li>
+            </ul>
+          </div>
         </div>
         <!-- / free hubspot crm -->
 
@@ -136,7 +143,7 @@
 
           <!-- colonna marketing con il suo box -->
           <div class="marketing left">
-            <div class="box_1">
+            <div class="box">
               <img class="trio" src="img/marketing.png">
               <h3> Marketing Hub </h3>
               <p> Marketing software to help you grow <br> traffic, convert more visitors, and run <br> complete inbound marketing <br> campaigns at scale.
@@ -158,7 +165,7 @@
 
           <!-- colonna sales con il suo box-->
           <div class="sales left">
-            <div class="box_2">
+            <div class="box">
               <img class="trio" src="img/sales.png">
               <h3> Sales Hub </h3>
               <p> Time-saving sales software that helps <br> you get deeper insights into prospects, <br> automate the tasks you hate, and close <br> more deals faster.
@@ -180,7 +187,7 @@
 
           <!-- colonna service -->
           <div class="service left">
-            <div class="box_3">
+            <div class="box">
               <img class="trio" src="img/service.png">
               <h3> Service Hub </h3>
               <p> Customer service software to help you <br> connect with customers, exceed <br> expectation, and turn them into <br> promoters that grow your business.
@@ -194,7 +201,6 @@
                 </ul>
               </div>
               <div class="button_orange">
-            </div>
                 <a class="learn_more" href="#"> Learn More </a>
               </div>
           </div>
@@ -202,25 +208,66 @@
 
         </div>
         <!-- /contenitore 3 colonne -->
-
-
       </section>
       <!-- / main bianco -->
 
       <!-- div gradiente -->
-
-      <section class ="gradiente">
-        <div class ="testo_bianco">
-          <div class="text">
-            <h3>Learn and grow </h3>
-            <h6> You don't have </h6>
+      <section id="gradiente">
+        <div class ="sfondo_gradiente">
+          <div class="grow text row">
+            <h2> Learn and grow with award-winning support and a thriving community behind you. </h2>
+            <p> You don't have to go it alone. Master the inbound methodology and get the most out of your tools with HubSpot's legendary customer support team and a community of thousands <br> of marketing and sales pros just like you. </p>
+            <div class="table">
+                <div class="riga_1">
+                  <div class="col border">
+                    <div class="numbers">150 +</div>
+                    <div class="small"> HubSpot user groups</div>
+                  </div>
+                  <div class="col">
+                    <div class="numbers">4.5m +</div>
+                    <div class="small"> monthly visited</div>
+                  </div>
+                  <div class="col">
+                    <div class="numbers">155m +</div>
+                    <div class="small"> certified professionals</div>
+                  </div>
+                  <div class="col">
+                    <div class="numbers">21k +</div>
+                    <div class="small"> registered attendees</div>
+                  </div>
+                </div>
+                <div class="riga_2">
+                  <div class="col border">
+                    <div class="numbers">200 +</div>
+                    <div class="small"> integretions</div>
+                  </div>
+                  <div class="col">
+                    <div class="numbers">6 +</div>
+                    <div class="small"> languages</div>
+                  </div>
+                  <div class="col">
+                    <div class="numbers">2.6m +</div>
+                    <div class="small"> social followers</div>
+                  </div>
+                  <div class="col">
+                    <div class="numbers">5k +</div>
+                    <div class="small"> profiles and counting</div>
+                  </div>
+                </div>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- / div gradiente -->
 
-        <div class ="col"> </div>
+      <section id="sezione_loghi">
+
+        <div class="loghi row"></div>
+
+
       </section>
 
-      <!-- / div gradiente -->
+
 
 
     </main>

@@ -15,6 +15,7 @@ body {
 
 header {
   height: 770px;
+  background-color: lightpink;
 }
 
 .row {
@@ -32,8 +33,13 @@ nav, li > a {
   text-decoration: none;
 }
 
+.navbar {
+  background-color: white;
+}
+
 .navbar_blue {
   border-bottom: 1px solid rgb(51, 71, 91);
+  background-color: aliceblue;
 }
 
 .left  {
@@ -48,10 +54,10 @@ nav, li > a {
 }
 
 .first, .second {
-  width: 70%;
   content: "";
   display: table;
   clear: both;
+  width: 70%;
   transform: translateY(110%);
 }
 
@@ -286,9 +292,14 @@ h2 {
   padding-right: 30px;
 }
 
-.box_1, .box_2, .box_3 {
+.box {
   border: 1px solid cadetblue;
   width: 100%;
+}
+
+.box > p {   /* scritte paragrafi */
+  line-height: 1.6em;
+  font-size: 15px;
 }
 
 .sales {
@@ -314,10 +325,6 @@ h3 {
   margin: 20px 0 25px 0;
 }
 
-.box_1, .box_2, .box_3 > p {   /* scritte paragrafi */
-  line-height: 1.6em;
-  font-size: 15px;
-}
 
 .titoletto {   /* popolar feature */
   text-align: center;
@@ -363,8 +370,68 @@ h3 {
 
 /* div gradiente verde */
 
-.testo_bianco {
-background: linear-gradient(90deg, rgba(0,165,188,1) 0%, rgba(0,188,166,1) 100%, rgba(0,165,188,1) 100%);
-  color: white;
+.sfondo_gradiente {
+  background: -webkit-linear-gradient(left, rgba(0,165,188,1) 0%, rgba(0,188,166,1) 100%, rgba(0,165,188,1) 100%);
+  background: -o-linear-gradient(left, rgba(0,165,188,1) 0%, rgba(0,188,166,1) 100%, rgba(0,165,188,1) 100%);
+  background: linear-gradient(to right, rgba(0,165,188,1) 0%, rgba(0,188,166,1) 100%, rgba(0,165,188,1) 100%);
   width: 100%;
+  height: auto;
 }
+
+.grow {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', 'Montserrat', 'AvenirNext', 'Helvetica', 'Arial', 'sans-serif';
+  padding-bottom: 100px;
+}
+
+.grow > h2 {
+  color: white;
+  padding-top: 40px;
+}
+
+.grow > p {
+  color: white;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+
+.table {
+  width: 100%;
+  height: auto;
+}
+
+.riga_1, .riga_2 {
+  height: 50%;
+}
+
+.riga_1 {
+  border-bottom: 1px solid white;
+}
+
+.col {
+  width: 20%;
+  height: 100%;
+  padding: 30px;
+  display: inline-block;
+  border-left: 1px solid white;
+}
+
+.numbers {
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.border {
+  border-left: none !important;
+}
+
+/* end div sfondo gradiente */
+
+
+/*
