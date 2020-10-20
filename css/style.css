@@ -194,7 +194,6 @@ nav, li > a {
 /* end navbar */
 
 
-
 /* jumbo image */
 
 .jumbo_image {
@@ -258,7 +257,7 @@ h6 {
 
 /* main */
 
-/* main_header powerful alone better toghether  */
+/* main_header rubik  */
 
 .main_header {
   width: 100%;
@@ -285,14 +284,14 @@ h2 {
   width: 18%;
 }
 
-/* end main_header powerful alone better toghether  */
+/* end main_header rubik  */
 
 
 /* main_blocco_bianco con colonna crm + 3 colonne */
 
 .crm_sx {
-  background-color: violet;
   width: 33.33% !important;
+  text-align: center;
 }
 
 .crm_dx {
@@ -303,7 +302,7 @@ h2 {
   background-color: white;
   border: 1px solid cadetblue;
   padding-top: 65px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   width: 100%;
   content: "";
   display: table;
@@ -319,14 +318,18 @@ h2 {
   padding-left: 10px;
 }
 
+.crm a {
+  position: absolute;
+  transform: translate(-100%, 290%);
+}
+
 .crm .titoletto {
   text-align: left;
 }
 
 #book {
   width: 30%;
-  text-align: center;
-  display: inline;
+  padding-top: 30px;
 }
 
 #deal {
