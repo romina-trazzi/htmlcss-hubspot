@@ -38,7 +38,7 @@ header {
   text-align: right;
 }
 
-h1, h2, p, h6, .titoletto {
+h1, h2, p, h6, span, .titoletto {
   color: rgb(51, 71, 91);
   font-family: 'Roboto', 'Montserrat', 'AvenirNext', 'Helvetica', 'Arial', 'sans-serif';
   text-decoration: none;
@@ -204,7 +204,7 @@ nav, li > a {
   background-repeat: no-repeat;
   background-size: 1429px 695px;
   background-position: bottom right;
-  /* background-color: #E5E5E5 */;
+  background-color: #fff4f0;
 }
 
 .percentage {
@@ -222,7 +222,7 @@ h1 {
   line-height: 1.5em;
 }
 
-.text a {
+.jumbo_images a {
   margin-bottom: 30px;
 }
 
@@ -290,12 +290,49 @@ h2 {
 
 /* main_blocco_bianco con colonna crm + 3 colonne */
 
-.crm {
-  background-color: deeppink;
-  border: 2px solid black; /* rgb(230, 236, 241); */
-  padding-bottom: 65px;
-  margin-bottom: 50px;
+.crm_sx {
+  background-color: violet;
+  width: 33.33% !important;
 }
+
+.crm_dx {
+  width: 66.67% !important;
+}
+
+.crm {
+  background-color: white;
+  border: 1px solid cadetblue;
+  padding-top: 65px;
+  margin-bottom: 50px;
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.crm li {
+  display: inline;
+}
+
+.crm span {
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.crm .titoletto {
+  text-align: left;
+}
+
+#book {
+  width: 30%;
+  text-align: center;
+  display: inline;
+}
+
+#deal {
+  padding-right: 10px;
+}
+
 
 
 /* 3 colonne */
@@ -511,9 +548,9 @@ h3 {
 
 /*footer */
 
-footer {
-  background-color: rgb(51,71,91);
-  color: white;
+#foot {
+  /* background-color: rgb(51,71,91); */
+  color: red !important;
   width: 100%;
   height: auto;
 }
