@@ -22,6 +22,11 @@ header {
   margin: auto;
 }
 
+#sfondo_main {
+  width: 100%;;
+  background-color: #f4f9fd;
+}
+
 /* navbar */
 
 nav, li > a {
@@ -39,7 +44,7 @@ nav, li > a {
 
 .navbar_blue {
   border-bottom: 1px solid rgb(51, 71, 91);
-  background-color: aliceblue;
+  background-color: #f4f9fd;
 }
 
 .left  {
@@ -164,6 +169,7 @@ nav, li > a {
   background-repeat: no-repeat;
   background-size: 1429px 695px;
   background-position: bottom right;
+  background-color: #E5E5E5;
 }
 
 .text {
@@ -433,4 +439,25 @@ h3 {
 /* end div sfondo gradiente */
 
 
-/*
+/* sezione loghi */
+
+.sezione_loghi {
+  background-color: lightsalmon;
+}
+
+.contenitore_loghi {
+  width: 100%;
+  height: auto;
+}
+
+.loghi {
+  background-color: cornflowerblue;
+  width: 100%;
+}
+
+
+.non_loghi {
+  background-color: olivedrab;
+  width: 100%;
+
+}
