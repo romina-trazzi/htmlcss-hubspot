@@ -522,8 +522,19 @@ h3 {
   clear: both;
 }
 
+.riga_uno_sx {
+  width: 33.33% !important;
+}
+
 .riga_uno_dx {
-  background-color: darkmagenta;
+  padding-right: 100px;
+  width: 66.67% !important;
+  text-align: end;
+}
+
+.riga_uno_dx img {
+  width: 22%;
+  padding: 10px 20px 10px 20px;
 }
 
 .loghi {
@@ -570,11 +581,16 @@ h3 {
   background-repeat: no-repeat;
 }
 
+
+/* end testi sezione loghi */
+
+/* end sezione loghi */
+
+
 /*footer */
 
 #foot {
-  /* background-color: rgb(51,71,91); */
-  color: red !important;
+  background-color: rgb(51,71,91); 
   width: 100%;
   height: auto;
 }
