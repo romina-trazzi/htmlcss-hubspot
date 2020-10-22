@@ -565,6 +565,10 @@ h3 {
   line-height: 1.6em;
 }
 
+.loghi img {
+  width: 20%;
+}
+
 .non_loghi h2 {
   width: 70%;
 }
@@ -581,6 +585,10 @@ h3 {
   background-repeat: no-repeat;
 }
 
+.special {
+  margin-bottom: 15px;
+}
+
 
 /* end testi sezione loghi */
 
@@ -589,10 +597,41 @@ h3 {
 
 /*footer */
 
-#foot {
-  background-color: rgb(51,71,91); 
+footer {
+  background-color: rgb(51,71,91);
   width: 100%;
   height: auto;
 }
+
+.tabella {
+  width: 70%;
+  padding-top: 50px;
+}
+
+.riga::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.col {
+  width: 25%;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.col.green {
+  background: green;
+}
+
+.col.red {
+  background-color: red;
+}
+
+
 
 /* end footer */
